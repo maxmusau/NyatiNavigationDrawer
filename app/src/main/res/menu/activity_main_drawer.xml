@@ -17,17 +17,22 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_get"
-            android:icon="@android:drawable/ic_input_get"
-            android:title="GetEmployee" />
-        <item
             android:id="@+id/nav_post"
             android:icon="@android:drawable/ic_input_add"
             android:title="PostEmployee" />
         <item
+            android:id="@+id/nav_get"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="GetEmployee" />
+
+        <item
             android:id="@+id/nav_put"
             android:icon="@android:drawable/ic_menu_edit"
             android:title="Update Employee" />
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Delete Employee" />
 
     </group>
 </menu>
