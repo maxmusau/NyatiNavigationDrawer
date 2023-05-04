@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.nyatinavigationdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.nyatinavigationdrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.nyatinavigationdrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_get"
+        android:name="com.example.nyatinavigationdrawer.ui.get.GetFragment"
+        android:label="Get Employee"
+        tools:layout="@layout/fragment_get" />
+    <fragment
+        android:id="@+id/nav_post"
+        android:name="com.example.nyatinavigationdrawer.ui.post.PostFragment"
+        android:label="Post Employee"
+        tools:layout="@layout/fragment_post" />
+    <fragment
+        android:id="@+id/nav_put"
+        android:name="com.example.nyatinavigationdrawer.ui.update.UpdateFragment"
+        android:label="Update Employee"
+        tools:layout="@layout/fragment_update" />
+    <fragment
+        android:id="@+id/nav_delete"
+        android:name="com.example.nyatinavigationdrawer.ui.delete.DeleteFragment"
+        android:label="Delete Employee"
+        tools:layout="@layout/fragment_delete" />
+</navigation>
